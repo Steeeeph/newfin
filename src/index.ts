@@ -2,7 +2,8 @@ import { greetUser } from '$utils/greet';
 
 window.Webflow ||= [];
 window.Webflow.push(() => {
-  const name = 'John Doe';
+  const name = ' julian tuwim';
+
   greetUser(name);
 });
 $(document).ready(function () {
